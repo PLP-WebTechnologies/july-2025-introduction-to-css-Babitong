@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* MAIN */
+main{
+    max-width: 1800px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    padding: 1rem;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+/* HERO SECTION */
+.hero{
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+.hero h1{
+    font-size: 3rem;
+
+}
+.hero p{
+    font-size: large;
+    margin-bottom: 1rem;
+}
+.hero a{
+    border: none;
+    border-radius: 6px;
+    background-color: aquamarine;
+    padding: 1rem;
+    color: #000;
+}
+
+/* CTA SECTION */
+.cta{
+    margin: 2rem auto;
+}
+
+/* ABOUT SECTION */
+.about{
+    margin: 2rem auto;
+}
+.about p{
+    margin-bottom:1rem;
+}
+
+.about a{
+    border: none;
+    border-radius: 6px;
+    background-color: aquamarine;
+    padding: 1rem;
+    color: #000;
+}
+
+/* CONTACT SECTION */
+#contact{
+    max-width: 1000px;
+    margin: 6rem auto;
+    
+
+}
+fieldset{
+    margin: 6rem 0;
+    padding: 4rem;
+    display: block;
+    
+}
+input,textarea{
+    width: 100%;
+    padding: 5rem 0.75;
+    background-color: white;
+    border-radius: 4px;
+    border: none;
+    height: 50px;
+
+}
+button{
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    background-color: aquamarine;
+
+}
+
